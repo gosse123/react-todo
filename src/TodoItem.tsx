@@ -23,7 +23,7 @@ const TodoItem = ({ todo, onDelete }: Props) => {
             <span className="text-md font-bold">
               <span>{todo.text}</span>
               <span
-                className={`badge badge-sm badge-soft ${todo.priotity == "Urgente" ? "badge-error" : todo.priotity == "Moyenne" ? "badge-warning" : "badge-success"}`}
+                className={` m-1 badge badge-sm badge-soft ${todo.priotity == "Urgente" ? "badge-error" : todo.priotity == "Moyenne" ? "badge-warning" : "badge-success"}`}
               >
                 {todo.priotity}
               </span>
