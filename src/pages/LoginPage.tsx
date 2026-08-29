@@ -57,11 +57,7 @@ export default function LoginPage() {
               <span>{error}</span>
             </div>
           )}
-          <button
-            type="submit"
-            className="btn btn-primary"
-            disabled={loading}
-          >
+          <button type="submit" className="btn btn-primary" disabled={loading}>
             {loading ? (
               <span className="loading loading-spinner loading-sm" />
             ) : (
